@@ -6,7 +6,13 @@ element.innerHTML='new value';
 //moving picture
 
 var img=document.getElementById('madi');
+var marginLeft=0;
+function moveRight()
+{
+    marginLeft=marginLeft=10;
+    img.style.marginLeft=marginLeft+'px';
+}
 img.onclick=function()
 {
-    img.style.marginleft='400px';
+    var interval=setInterval(MoveRight,100);
 };
