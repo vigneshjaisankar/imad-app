@@ -6,4 +6,4 @@ element.innerHTML='new value';
 //moving picture
 
 var img=document.getElementById('pp');
-var marginLeft=500;
+
