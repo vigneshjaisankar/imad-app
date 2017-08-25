@@ -16,6 +16,9 @@ body {
     font-weight: bold;
 }
 
+.img-circle {
+    border-radius: 50%;
+}
 .img-medium {
     height: 200px;
 }
