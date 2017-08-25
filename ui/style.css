@@ -18,6 +18,7 @@ body {
 
 .img-circle {
     border-radius: 25%;
+    height: 200px;
 }
 .img-medium {
     height: 200px;
