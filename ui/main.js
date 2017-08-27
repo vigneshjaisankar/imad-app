@@ -22,6 +22,20 @@ button.onclick=function(){
     
 };
 
+var nameInput=getElementById('name');
+var name=nameInput.value;
+var submit=document.getElementById('submit_btn');
+submit.onclick=function()
+{//make a request to the server to send the name which typed in the box
+//copy a list of name and render it as a list
+    var name=['name1','name2','name3','name4'];
+    var list='';
+    for(var i=0;i<name.length; i++){
+        list=='<li>' + name[i] + '</li>';
+    }
+    var ul=document.getElementById('namelist');
+    ul.innerHTML=list;
+};
 
 
 
