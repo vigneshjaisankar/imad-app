@@ -5,7 +5,7 @@ button.onclick=function(){
     //capture the response and store it in a variable
     request.onreadystatechange = function()
     {
-        if(request.readystate===XMLHttpRequest.DONE)
+        if(request.readyState===XMLHttpRequest.DONE)
         {
         //take soem action based on the request
         if(request.status===200)
